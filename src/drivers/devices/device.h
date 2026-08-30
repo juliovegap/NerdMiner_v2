@@ -17,6 +17,8 @@
 #include "esp32S3042OLED.h"
 #elif defined(TDISPLAY)
 #include "lilygoS3TDisplay.h"
+#elif defined(LILYGO_S2_T_DISPLAY)
+#include "lilygoS2TDisplay.h"
 #elif defined(NERDMINER_S3_AMOLED)
 #include "lilygoS3Amoled.h"
 #elif defined(NERDMINER_S3_DONGLE)
